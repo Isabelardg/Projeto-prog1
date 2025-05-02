@@ -10,9 +10,9 @@ Esse é o trabalho final da disciplina **Programação de Computadores I**, onde
 O programa permite:
 - Fazer o cadastro de 4 pedidos, com informações como o valor do pedido, quantidade de itens, sexo do cliente e código do pedido.
 - Tem um menu principal que permite:
- - Ver informações dos pedidos baseado no código.
-  - Ver informações de todos os pedidos cadastrados.
-  - Encerrar o programa.
+   - Ver informações dos pedidos baseado no código.
+   - Ver informações de todos os pedidos cadastrados.
+   - Encerrar o programa.
 - A cada cadastro, o programa valida as entradas, evitando valores negativos ou maiores que 1000, e garante que o sexo e o código do pedido sejam válidos.
 
 ### Funcionalidades:
