@@ -11,8 +11,8 @@ O programa permite:
 - Fazer o cadastro de 4 pedidos, com informações como o valor do pedido, quantidade de itens, sexo do cliente e código do pedido.
 - Tem um menu principal que permite:
   1. Ver informações dos pedidos baseado no código.
-  2.- Ver informações de todos os pedidos cadastrados.
-  3. - Encerrar o programa.
+  2. Ver informações de todos os pedidos cadastrados.
+  3. Encerrar o programa.
 - A cada cadastro, o programa valida as entradas, evitando valores negativos ou maiores que 1000, e garante que o sexo e o código do pedido sejam válidos.
 
 ### Funcionalidades:
