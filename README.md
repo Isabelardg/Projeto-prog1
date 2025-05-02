@@ -26,9 +26,9 @@ O programa permite:
 
 ## Como rodar o projeto
 
-1. Baixe o código.
-2. Abra o arquivo `main.c` e compile o programa em C (pode usar um compilador como o GCC).
-3. Execute o programa e siga as instruções na tela.
+1. Baixe os arquivos do repositório (ou clone com o git, se preferir).
+2. Abra o arquivo main.c no seu editor favorito
+3. Compile o código com um compilador C.
 
 ## Autor
 
