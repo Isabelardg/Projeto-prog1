@@ -1,9 +1,9 @@
-# Projeto-prog1
-Trabalho final de **Programação de Computadores I** - Gerenciador de Hamburgueria em C
+# Gerenciador-de-Hamburgueria
+Trabalho acadêmico — Desenvolvimento de um sistema em C para gerenciamento de pedidos de uma hamburgueria, com cadastro validado, consultas e geração de estatísticas.
 
 ## Sobre o Projeto
 
-Esse é o trabalho final da disciplina **Programação de Computadores I**, onde fizemos um sistema simples para gerenciar os pedidos de uma hamburgueria permitindo o cadastro e consulta de pedidos.
+Este projeto consiste na modelagem e implementação de um Gerenciador de Hamburgueria. O sistema controla vendas, entende o perfil dos consumidores e realiza consultas baseadas nos pedidos.
 
 ### O que o programa faz?
 
