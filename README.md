@@ -1,36 +1,86 @@
-# Gerenciador-de-Hamburgueria
+# 🍔 Gerenciador de Hamburgueria
+
 Trabalho acadêmico — Desenvolvimento de um sistema em C para gerenciamento de pedidos de uma hamburgueria, com cadastro validado, consultas e geração de estatísticas.
 
-## Sobre o Projeto
+---
 
-Este projeto consiste na modelagem e implementação de um Gerenciador de Hamburgueria. O sistema controla vendas, entende o perfil dos consumidores e realiza consultas baseadas nos pedidos.
+## 📝 Sobre o Projeto
 
-### O que o programa faz?
+Este projeto consiste na modelagem e implementação de um gerenciador de hamburgueria. O sistema controla as vendas, analisa o perfil dos consumidores e permite consultas detalhadas baseadas nos pedidos realizados.
 
-O programa permite:
-- Fazer o cadastro de 4 pedidos, com informações como o valor do pedido, quantidade de itens, sexo do cliente e código do pedido.
-- Tem um menu principal que permite:
-  
-   - Ver informações dos pedidos baseado no código.
-   - Ver informações de todos os pedidos cadastrados.
-   - Encerrar o programa.
-     
-- A cada cadastro, o programa valida as entradas, evitando valores negativos ou maiores que 1000, e garante que o sexo e o código do pedido sejam válidos.
+---
 
-### Funcionalidades:
+## 🚀 Funcionalidades
 
-- **Cadastro de pedidos**: Com validação para garantir que as informações sejam corretas.
-- **Menu principal**: Para buscar pedidos por código, ver estatísticas de todos os pedidos ou finalizar o programa.
-- **Consultas de pedidos**: Você pode procurar pedidos pelo código e ver as informações detalhadas.
-- **Estatísticas de pedidos**: Como valor médio, total de itens vendidos, pedidos acima de 35 reais, entre outras.
+### 1. Cadastro de Pedidos
 
-## Como rodar o projeto
+- Cadastro de exatamente **4 pedidos**.  
+- Cada pedido contém:  
+  - Valor total da venda (não pode ser negativo nem maior que 1000).  
+  - Quantidade de itens vendidos.  
+  - Sexo do cliente (apenas 'm', 'f' ou 'n').  
+  - Código do pedido (uma letra de A até G).  
 
-1. Baixe os arquivos do repositório (ou clone com o git, se preferir).
-2. Abra o arquivo main.c no seu editor favorito
-3. Compile o código com um compilador C.
+- Validações:  
+  - Impede o cadastro de valores inválidos e informa o erro.  
+  - Impede o cadastro se o sexo ou código forem inválidos e informa o erro.  
+  - Confirma o cadastro com mensagem de sucesso caso não ocorra erro.  
 
-## Autor
+### 2. Menu Principal
 
-**Isabela Rodrigues**  
-[Isabela rodrigues](https://github.com/Isabelardg)
+Após o cadastro dos 4 pedidos, o programa exibe um menu com as opções:  
+
+- Pesquisar pedidos por código.  
+- Ver informações de todos os pedidos cadastrados.  
+- Encerrar o programa.  
+
+### 3. Pesquisa de Pedidos
+
+- Solicita o código para pesquisa.  
+- Exibe todos os pedidos com aquele código, mostrando:  
+  - Valor do pedido.  
+  - Quantidade de itens vendidos.  
+  - Sexo do cliente.  
+- Se não encontrar nenhum pedido, informa o usuário.  
+- Após a exibição, pergunta se deseja retornar ao menu principal ou encerrar.  
+
+### 4. Informações de Todos os Pedidos
+
+- Solicita um valor para filtrar a quantidade de pedidos abaixo desse valor.  
+- Exibe as seguintes informações:  
+  - Quantidade de pedidos abaixo do valor informado.  
+  - Quantidade de pedidos acima de R$35.  
+  - Quantidade de compradores homens.  
+  - Valor total comprado pelas mulheres.  
+  - Valor médio dos pedidos.  
+  - Valor do pedido mais caro.  
+  - Valor do pedido mais barato.  
+  - Quantidade total de itens vendidos.  
+  - Quantidade de itens comprados por clientes que não informaram sexo.  
+  - Código de pedido mais vendido (em caso de empate, exibe qualquer um dos códigos mais vendidos).  
+- Pergunta se deseja retornar ao menu principal ou encerrar o programa.  
+
+---
+
+## ⚙️ Tecnologias Utilizadas
+
+- Linguagem: **C**  
+- Estruturas de dados simples (vetores).  
+- Validação de entrada de dados.  
+- Loop e controle de fluxo para menus interativos.  
+
+---
+
+## 💻 Execução
+
+Compile e execute o código em um ambiente C (como Dev-C++, Code::Blocks ou terminal com GCC).
+
+---
+
+## 📋 Observações
+
+- O programa garante que todas as entradas são validadas antes do cadastro.  
+- O menu é exibido repetidamente até o usuário optar por encerrar o programa.  
+- Mensagens claras de erro e sucesso são apresentadas para facilitar o uso.  
+
+---
